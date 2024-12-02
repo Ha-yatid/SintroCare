@@ -1,0 +1,43 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem;
+    background-color: #f3f4f6;
+}
+
+.menu-icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.icons .icon {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.dashboard-menu {
+    margin-top: 1rem;
+}
+
+.dashboard-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.dashboard-menu li {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.dashboard-menu li:hover {
+    background-color: #e5e7eb;
+    border-radius: 5px;
+}

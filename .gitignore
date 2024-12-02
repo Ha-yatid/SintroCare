@@ -1,0 +1,23 @@
+# === Ignorer les fichiers sensibles ===
+.env
+
+# === Ignorer les dossiers node_modules dans les deux parties du projet ===
+node_modules/
+
+# === Ignorer package-lock.json ===
+package-lock.json
+
+# === Ignorer des fichiers spécifiques peu importe leur emplacement ===
+auth.js
+
+# === Ignorer les fichiers générés par React ===
+client/build/
+
+# === Ignorer les fichiers temporaires ===
+*.log
+*.tmp
+*.cache
+.DS_Store
+
+# === Ignorer les fichiers système ===
+Thumbs.db
